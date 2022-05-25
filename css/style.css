@@ -1,0 +1,538 @@
+body {
+    background: #FFFFF0;
+    font-family: 'Poppins';
+}
+
+.cabecalho {
+    background: #FF0000;
+}
+
+.cabecalho-conteudo {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.cabecalho-menu {
+    position: absolute;
+    right: 30px;
+    top: 130px;
+}
+
+.cabecalho-item {
+    display: inline;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.cabecalho-link {
+    color: #000000;
+    text-decoration: none;
+    transition: 900ms all;
+}
+
+.cabecalho-link:hover {
+    font-size: 30px;
+    color: #FFD700;
+}
+
+.cabecalho-link:active {
+    text-decoration: line-through;
+}
+
+.logo {
+    width: 20%;
+    position: relative;
+    right: 175px;
+}
+
+.cabecalho-titulo {
+    padding-left: 20px;
+}
+
+.conteudo-principal {
+    background: linear-gradient(#FFFFF0 60%,#ff4a4a, #FF0000);
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 90px;
+}
+
+section > p > a {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+.sobre {
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+section > img {
+    opacity: 0.7;
+    transition: 1s;
+    box-shadow: 10px 10px 26px 12px #000000;
+}
+
+section >img:hover {
+    opacity: 1.0;
+}
+
+.titulo {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px #5f5f5f;
+}
+
+.sobre-texto {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    padding: 0 100px;
+}
+
+.sobre-imagem {
+    width: 56%;
+    margin: 50px 0;
+    border-radius: 10px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+strong {
+    color: #FFD700
+}
+
+.sobre-mvv {
+    display: inline-block;
+    margin: 40px 10px 0 0;
+    width: 28%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+    background: #FFFFFF;
+    font-weight: 300;
+}
+
+.sobre-mvv:hover {
+    cursor: pointer;
+    padding: 15px;
+    border-color: #FFD700;
+}
+
+.sobre-mvv:active {
+    color: #FFD700;
+}
+
+.beneficios {
+    margin: 90px 0;
+}
+
+.beneficios-texto {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.beneficios-lista {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    padding: 0 50px;
+}
+
+.beneficios-item {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.beneficios-item::before {
+    content: "\27F6  ";
+}
+
+.beneficio-imagem {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.carros-classicos {
+   padding: 0 50px;
+}
+
+.carros-classicos-imagem {
+    width: 30%;
+    float: right;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.carros-classicos-texto {
+    font-size: 25px;
+    padding: 53px 83px;
+    font-weight: 300;
+}
+
+.localizacao {
+    clear: right;
+    width: 940px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.localizacao-texto {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+section > iframe {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+.eventos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.eventos-texto {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.rodape {
+    background: #FF0000;
+    text-align: center;
+}
+
+.rodape-conteudo {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.rodape-desenvolvedor {
+    display: inline-block;
+    position: relative;
+    right: 400px;
+}
+
+.rodape-desenvolvedor > p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.github {
+    vertical-align: middle;
+}
+
+.logo-rodape {
+    width: 20%;
+    display: inline-block;
+}
+
+.rodape-menu {
+    display: inline-block;
+    position: relative;
+    left: 400px;
+}
+
+.rodape-lista {
+    border-left: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.rodape-item {
+    margin: 3px 10px;
+}
+
+.rodape-link {
+    font-size: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.rodape-link:hover {
+    text-decoration: underline;
+    color: #FFFFE0;
+}
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+   .cabecalho-conteudo, .sobre, .beneficios, .carros-classicos, .localizacao, .eventos, .rodape-conteudo {
+       width: auto;
+    }
+
+    .logo {
+        display: block;
+        position: static;
+        width: 100%;
+    }
+
+    .cabecalho-menu {
+        position: static;
+        padding: 20px 0;
+    }
+
+    .cabecalho-item {
+        display: block;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .banner {
+        height: 400px;
+        width: 100%;
+    }
+
+    .titulo {
+       font-size: 40px;
+    }
+
+    .sobre-texto, .beneficios-texto, .carros-classicos-texto, .localizacao-texto, .eventos-texto, .beneficios-item {
+        font-size: 24px;
+    }
+
+    .sobre {
+        padding: 0;
+    }
+
+    .sobre-texto {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .sobre-imagem {
+        width: 90%;
+    }
+
+    .sobre-mvv {
+        display: block;
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .beneficios {
+        text-align: center;
+    }
+
+    .beneficios-texto {
+        padding: 0;
+        margin: 0;
+    }
+
+    .beneficios-item {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .beneficios-item::before {
+        content: "\235F";
+        font-style: normal;
+    }    
+
+    .beneficio-imagem {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .carros-classicos-imagem {
+        float: none;
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .carros-classicos-texto {
+        padding: 0;
+        text-align: center;
+    }
+
+    .localizacao {
+        text-align: center;
+    }
+
+    .localizacao-texto {
+        padding: 0 30px;
+    }
+
+    .localizacao iframe {
+        height: 300px;
+    }
+
+    .eventos {
+        text-align: center;
+    }
+
+    .eventos-texto {
+        padding: 0 20px;
+    }
+
+    .eventos iframe {
+        height: 300px;
+        width: 90%;
+    }
+
+    .rodape-lista {
+        border: none;
+    }
+
+    .rodape-desenvolvedor > p {
+        font-size: 20px;
+    }
+
+    .logo-rodape {
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .rodape-desenvolvedor {
+        position: static;
+    }
+
+    .rodape-menu {
+        position: static;
+    }
+
+    .rodape-item {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1253px) {
+    .cabecalho-conteudo, .sobre, .beneficios, .carros-classicos, .localizacao, .eventos, .rodape-conteudo {
+        width: auto;
+    }
+
+    .sobre-texto, .beneficios-texto, .carros-classicos-texto, .localizacao-texto, .eventos-texto, .beneficios-item {
+        font-size: 30px;
+    }
+
+    .titulo {
+        font-size: 60px;
+    }
+
+    .sobre-mvv {
+        width: 50%;
+    }
+
+    .sobre-mvv:hover {
+        transform: scale(1.1);
+    }
+
+    .cabecalho-conteudo {
+        padding: 50px 0;
+    }
+
+    .logo {
+        position: static;
+        display: block;
+        width: 100%;
+    }
+
+    .cabecalho-menu {
+       position: static;
+    }
+
+    .cabecalho-lista {
+        text-align: center;
+    }
+
+    .cabecalho-item {
+        width: auto;
+        margin: 0 8px;
+        font-size: 35px;
+        display: block;
+        line-height: 50px;
+    }
+
+    .beneficios {
+        text-align: center;
+    }
+
+    .beneficios-lista {
+        width: auto;
+    }
+
+    .beneficios-item {
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    .beneficio-imagem {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    .carros-classicos {
+        text-align: center;
+    }
+
+    .carros-classicos-texto {
+        padding: 0;
+        text-align: center;
+    }
+
+    .carros-classicos-imagem {
+        float: none;
+        width: 60%;
+    }
+
+    .localizacao, .eventos {
+       text-align: center;
+    }
+
+    .rodape-lista {
+        border: none;
+    }
+
+    .rodape-desenvolvedor > p {
+        font-size: 28px;
+    }
+
+    .logo-rodape {
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .rodape-desenvolvedor {
+        position: static;
+    }
+
+    .github {
+        margin: 0;
+        width: 50px;
+        vertical-align: middle;
+    }
+
+    .rodape-menu {
+        position: static;
+    }
+
+    .rodape-link {
+        font-size: 32px;
+    }
+
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>The Classic - Contato</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contato.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <div class="cabecalho-conteudo">
+                <h1 class="cabecalho-titulo"><img src="imagens/logo.png" alt="Logo com um carro clássico com título The Classic" class="logo"></h1>
+                <nav class="cabecalho-menu">
+                    <ul class="cabecalho-lista">
+                        <li class="cabecalho-item"><a href="carros.html" class="cabecalho-link">carros</a></li>
+                        <li class="cabecalho-item"><a href="noticias.html" class="cabecalho-link">notícias</a></li>
+                        <li class="cabecalho-item"><a href="eventos.html" class="cabecalho-link">eventos</a></li>
+                        <li class="cabecalho-item"><a href="curriculo.html" class="cabecalho-link">currículo</a></li>
+                        <li class="cabecalho-item"><a href="index.html" class="cabecalho-link">principal</a></li>
+                        <li class="cabecalho-item"><a href="sobre.html" class="cabecalho-link">sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="contato-principal">
+            <form class="formulario">
+                <legend class="formulario-titulo">Nos envie uma mensagem!</legend>
+
+                <label class="formulario-campo" for="nome">Nome:</label>
+                <input class="formulario-entrada" type="text" id="nome" required>
+                
+                <label class="formulario-campo" for="sobrenome">Sobrenome:</label>
+                <input class="formulario-entrada" type="text" id="sobrenome" required>
+                
+                <label class="formulario-campo" for="email">E-mail:</label>
+                <input class="formulario-entrada" type="email" id="email" required placeholder="seuemail@dominio.com">
+               
+                <label class="formulario-campo" for="celular">Celular:</label>
+                <input class="formulario-entrada" type="tel" id="celular" required placeholder="(XX) XXXXX-XXXX">
+            
+                <label class="formulario-campo" for="mensagem">Mensagem:</label>
+                <textarea class="formulario-entrada-mensagem" cols="40" rows="10" id="mensagem" required></textarea>
+
+                <fieldset class="formulario-contato">
+                    <legend class="formulario-texto">Deseja qual forma de retorno?</legend>
+
+                    <label class="formulario-opcao" for="opcao-email">
+                        <input type="radio" name="contato" value="email" id="opcao-email">Email
+                    </label>
+                    
+                    <label class="formulario-opcao" for="opcao-celular">
+                        <input type="radio" name="contato" value="celular" id="opcao-celular">Celular
+                    </label>
+                    
+                    <label class="formulario-opcao" for="opcao-whatsapp">
+                        <input type="radio" name="contato" value="whatsapp" id="opcao-whatsapp" checked>WhatsApp
+                    </label>
+                </fieldset>
+
+                <fieldset class="formulario-assunto">
+                    <legend class="formulario-texto">Selecione o assunto da mensagem:</legend>
+
+                    <select class="formulario-selecao">
+                        <option>Reclamação</option>
+                        <option>Sugestão</option>
+                        <option>Crítica</option>
+                        <option>Dúvida</option>
+                        <option>Outros</option>
+                    </select>
+                </fieldset>
+                
+                <label class="formulario-texto" for="caixa-email">
+                    <input type="checkbox" id="caixa-email">
+                    Marque para receber e-mails sobre notícias, carros e eventos
+                </label>
+                
+                <input class="formulario-botao" type="submit" value="Enviar Mensagem">
+            </form>
+
+            <table class="contato-tabela">
+                <thead class="tabela-cabecalho">
+                    <tr>
+                        <th class="tabela-titulo">Dia</th>
+                        <th class="tabela-titulo">Horário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="tabela-linha">Segunda-feira</td>
+                        <td class="tabela-linha">09:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td class="tabela-linha">Terça-feira</td>
+                        <td class="tabela-linha">09:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td class="tabela-linha">Quarta-feira</td>
+                        <td class="tabela-linha">09:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td class="tabela-linha">Quinta-feira</td>
+                        <td class="tabela-linha">09:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td class="tabela-linha">Sexta-feira</td>
+                        <td class="tabela-linha">09:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td class="tabela-linha">Sábado</td>
+                        <td class="tabela-linha">09:00 - 14:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer class="rodape">
+            <div class="rodape-conteudo">
+
+               <div class="rodape-desenvolvedor">
+                    <p>&#128187; LucasDevRJ</p>
+                    <a href="https://github.com/LucasDevRJ">
+                        <img src="imagens/github.png" alt="" class="github">
+                    </a>
+               </div>
+
+                <img src="imagens/logo.png" alt="Logo com um carro clássico com título The Classic" class="logo-rodape">
+
+                <nav class="rodape-menu">
+                    <ul class="rodape-lista">
+                        <li class="rodape-item"><a href="carros.html" class="rodape-link">carros</a></li>
+                        <li class="rodape-item"><a href="noticias.html" class="rodape-link">notícias</a></li>
+                        <li class="rodape-item"><a href="eventos.html" class="rodape-link">eventos</a></li>
+                        <li class="rodape-item"><a href="curriculo.html" class="rodape-link">currículo</a></li>
+                        <li class="rodape-item"><a href="index.html" class="rodape-link">principal</a></li>
+                        <li class="rodape-item"><a href="sobre.html" class="rodape-link">sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+       </footer>
+    </body>
+</html>

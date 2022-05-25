@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>The Classic - Currículo</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contato.css">
+        <link rel="stylesheet" href="css/curriculo.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header class="cabecalho">
+            <div class="cabecalho-conteudo">
+                <h1 class="cabecalho-titulo"><img src="imagens/logo.png" alt="Logo com um carro clássico com título The Classic" class="logo"></h1>
+                <nav class="cabecalho-menu">
+                    <ul class="cabecalho-lista">
+                        <li class="cabecalho-item"><a href="carros.html" class="cabecalho-link">carros</a></li>
+                        <li class="cabecalho-item"><a href="noticias.html" class="cabecalho-link">notícias</a></li>
+                        <li class="cabecalho-item"><a href="eventos.html" class="cabecalho-link">eventos</a></li>
+                        <li class="cabecalho-item"><a href="index.html" class="cabecalho-link">principal</a></li>
+                        <li class="cabecalho-item"><a href="contato.html" class="cabecalho-link">contato</a></li>
+                        <li class="cabecalho-item"><a href="sobre.html" class="cabecalho-link">sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="curriculo-principal">
+            <form class="formulario">
+                <legend class="formulario-titulo">Envie seu currículo para nós!</legend>
+
+                <fieldset class="formulario-informacoes-pessoais">
+                    <label for="nome" class="formulario-campo">Nome:</label>
+                    <input type="text" id="nome" class="formulario-entrada" required>
+
+                    <label for="sobrenome" class="formulario-campo">Sobrenome:</label>
+                    <input type="text" id="sobrenome" class="formulario-entrada" required>
+
+                    <label for="data-nascimento" class="formulario-campo">Data de Nascimento:</label>
+                    <input type="date" id="data-nascimento" class="data" required> 
+
+                    <label class="formulario-campo" for="email">E-mail:</label>
+                    <input class="formulario-entrada" type="email" id="email" required placeholder="seuemail@dominio.com" required>
+                
+                    <label class="formulario-campo" for="celular">Celular:</label>
+                    <input class="formulario-entrada" type="tel" id="celular" required placeholder="(XX) XXXXX-XXXX" required>
+                </fieldset>
+
+                <fieldset class="formulario-informacoes-profissionais">
+
+                    <legend class="formulario-texto">Selecione o cargo desejado:</legend>
+
+                    <select class="formulario-selecao">
+                        <option>Vendedor</option>
+                        <option>Faxineiro</option>
+                        <option>Recepcionista</option>
+                    </select>
+
+                    <legend class="formulario-texto">Possui experiência profissional no cargo?</legend>
+
+                    <label for="opcao-sim" class="formulario-opcao">
+                        <input type="radio" name="experiencia" value="sim" id="opcao-sim" checked>Sim
+                    </label>
+
+                    <label for="opcao-nao" class="formulario-opcao">
+                        <input type="radio" name="experiencia" value="nao" id="opcao-nao">Não
+                    </label>
+                </fieldset>
+
+                <fieldset class="formulario-formacao-academica">
+
+                    <legend class="formulario-texto">Selecione seu nível acadêmico:</legend>
+                    
+                    <select class="formulario-selecao-academico">
+                        <option>Ensino Médio Incompleto</option>
+                        <option>Ensino Médio em Andamento</option>
+                        <option>Ensino Médio Completo</option>
+                        <option>Ensino Técnico Incompleto</option>
+                        <option>Ensino Técnico em Andamento</option>
+                        <option>Ensino Técnico Completo</option>
+                        <option>Ensino Superior Incompleto</option>
+                        <option>Ensino Superior em Andamento</option>
+                        <option>Ensino Superior Completo</option>
+                    </select>
+
+                    <label for="curso" class="formulario-campo">Curso:</label>
+                    <input type="text" id="curso" class="formulario-entrada" placeholder="Caso faça algum curso, digite o nome do curso">
+
+                    <label for="instituicao" class="formulario-campo">Instituição:</label>
+                    <input type="text" id="instituicao" class="formulario-entrada" placeholder="Caso esteja matrículado em uma instituição, digite ela aqui">
+                </fieldset>
+
+                <fieldset class="formulario-teste">
+                    <legend class="formulario-texto">Entende de carros clássicos?</legend>
+
+                    <label for="opcao-entendo-sim" class="formulario-opcao">
+                        <input type="radio" name="entendimento" value="sim" id="opcao-entendo-sim" checked>Sim
+                    </label>
+
+                    <label for="opcao-entendo-nao" class="formulario-opcao">
+                        <input type="radio" name="entendimento" value="nao" id="opcao-entendo-nao">Não
+                    </label>
+
+                    <label for="carro-favorito" class="formulario-campo">Carro Favorito:</label>
+                    <input type="text" id="carro-favorito" class="formulario-entrada" placeholder="Caso tenha, digite seu carro clássico favorito">
+
+                    <label class="formulario-campo" for="justifique-mensagem">Justifique:</label>
+                    <textarea class="formulario-entrada-mensagem" cols="40" rows="10" id="justifique-mensagem" placeholder="Digite os motivos dele ser seu favorito" required></textarea>
+                </fieldset>
+
+                <input class="formulario-botao" type="submit" value="Enviar Currículo">
+            </form>
+        </main>
+
+        <footer class="rodape">
+            <div class="rodape-conteudo">
+
+               <div class="rodape-desenvolvedor">
+                    <p>&#128187; LucasDevRJ</p>
+                    <a href="https://github.com/LucasDevRJ">
+                        <img src="imagens/github.png" alt="" class="github">
+                    </a>
+               </div>
+
+                <img src="imagens/logo.png" alt="Logo com um carro clássico com título The Classic" class="logo-rodape">
+
+                <nav class="rodape-menu">
+                    <ul class="rodape-lista">
+                        <li class="rodape-item"><a href="carros.html" class="rodape-link">carros</a></li>
+                        <li class="rodape-item"><a href="noticias.html" class="rodape-link">notícias</a></li>
+                        <li class="rodape-item"><a href="eventos.html" class="rodape-link">eventos</a></li>
+                        <li class="rodape-item"><a href="index.html" class="rodape-link">principal</a></li>
+                        <li class="rodape-item"><a href="contato.html" class="rodape-link">contato</a></li>
+                        <li class="rodape-item"><a href="sobre.html" class="rodape-link">sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+       </footer>
+    </body>
+</html>

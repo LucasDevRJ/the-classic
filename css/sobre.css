@@ -1,0 +1,92 @@
+.historia {
+    padding: 100px 0;
+}
+
+.historia-conteudo {
+    font-size: 25px;
+    margin: 100px 0 60px 40px;
+    width: 63%;
+    display: inline-block;
+}
+
+.historia-titulo {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+}
+
+.historia-texto {
+    font-size: 25px;
+    padding: 0 100px;
+    position: relative;
+    bottom: 40px;
+    font-weight: 300;
+}
+
+.historia-imagem {
+    width: 30%;
+    vertical-align: baseline;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+    .historia {
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .historia-conteudo {
+        width: auto;
+        margin: 0;
+    }
+
+    .historia-titulo {
+        margin: 30px 0;
+    }
+
+    .historia-texto {
+        padding: 0 20px;
+    }
+
+    .historia-texto, .historia-titulo {
+        position: static;
+    }
+
+    .historia-imagem {
+        margin: 30px 0;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1253px) {
+    .historia {
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .historia-conteudo {
+        width: auto;
+        margin: 0;
+    }
+
+    .historia-titulo {
+        margin: 30px 0;
+        font-size: 50px;
+    }
+
+    .historia-texto {
+        padding: 0 30px;
+        font-size: 30px;
+    }
+
+    .historia-texto, .historia-titulo {
+        position: static;
+    }
+
+    .historia-imagem {
+        margin: 30px 0;
+        width: 55%;
+    }
+}

@@ -1,0 +1,95 @@
+.curriculo-principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.data {
+    width: 20%;
+    font-size: 18px;
+    padding: 5px;
+    background: #FFFFE0;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.formulario-selecao-academico {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 30%;
+    margin-bottom: 20px;
+    background: #FFFFE0;    
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+    .curriculo-principal {
+        width: auto;
+    }
+
+    .formulario-titulo {
+        margin-top: 30px;
+    }
+
+    .formulario {
+       padding: 30px;
+    } 
+
+    .formulario-campo, .formulario-texto {
+        margin: 15px 0;
+    }
+
+    .formulario-entrada, .formulario-entrada-mensagem {
+        width: 80%;
+    }
+
+    .data {
+        width: 60%;
+    }
+
+    .formulario-selecao {
+        width: 60%;
+    }
+
+    .formulario-selecao-academico {
+        width: 100%;
+    }
+
+    .formulario-botao {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1253px) {
+    .curriculo-principal {
+        width: auto;
+    }
+
+    .formulario {
+        padding: 30px;
+    }
+
+    .data {
+        padding: 10px;
+        width: 30%;
+        font-size: 27px;
+    }
+
+    .formulario-titulo {
+        margin-top: 30px;
+    }
+
+    .formulario-campo {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .formulario-entrada, .formulario-entrada-mensagem {
+        font-size: 27px;
+    }
+
+    .formulario-botao {
+        width: 60%;
+    }
+}

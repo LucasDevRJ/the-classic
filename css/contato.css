@@ -1,0 +1,177 @@
+.contato-principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.formulario {
+    padding: 90px 0;
+}
+
+.formulario-titulo {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formulario-campo {
+    font-size: 25px;
+    margin: 10px 0;
+    display: block;
+    font-weight: 300;
+}
+
+.formulario-entrada {
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 15px;
+    background: #FFFFE0;
+    border-radius: 5px;
+    width: 60%;
+    border-style: solid;
+}
+
+.formulario-entrada-mensagem {
+    display: block;
+    margin: 10px 0;
+    background: #FFFFE0;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 60%;
+    font-weight: 300;
+}
+
+.formulario-texto {
+    font-size: 25px;
+    margin: 15px 0;
+    display: block;
+    font-weight: 300;
+}
+
+.formulario-opcao {
+   display: block;
+   font-size: 25px;
+   margin: 10px 0;
+   font-weight: 300;
+}
+
+.formulario-selecao {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 20%;
+    margin-bottom: 20px;
+    background: #FFFFE0;    
+    border-radius: 5px;
+}
+
+.formulario-botao {
+    margin-top: 30px;
+    padding: 20px 70px;
+    font-size: 20px;
+    width: 40%;
+    background: #FFD700;
+    color: #FFFFF0;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.formulario-botao:hover {
+    background: #FFA500;
+    transform: scale(1.2);
+}
+
+.contato-tabela {
+    margin-bottom: 60px;
+}
+
+.tabela-cabecalho {
+    background: #FF0000;
+    color: #FFFFF0;
+}
+
+.tabela-linha, .tabela-titulo {
+    border: 1px solid #000000;
+    padding: 5px 10px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+    .contato-principal {
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .formulario-titulo {
+        margin-top: 30px;
+    }
+
+    .formulario {
+       padding: 30px;
+    } 
+
+    .formulario-campo, .formulario-texto {
+        margin: 15px 0;
+    }
+
+    .formulario-entrada, .formulario-entrada-mensagem {
+        width: 80%;
+    }
+
+    .formulario-selecao {
+        width: 60%;
+    }
+
+    .formulario-botao {
+        width: auto;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .formulario-botao:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1253px) {
+    .contato-principal {
+        width: auto;
+        padding: 0 30px;
+    }
+
+    .formulario-campo {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .formulario-opcao {
+        font-size: 28px;
+    }
+
+    .formulario-texto {
+        margin: 15px 0;
+        font-size: 28px;
+    }
+
+    .formulario-entrada, .formulario-entrada-mensagem {
+        font-size: 27px;
+    }
+
+    .formulario-selecao {
+        width: 37%;
+        padding: 15px;
+        font-size: 25px;
+    }
+
+    .formulario-botao {
+        width: 60%;
+    }
+
+    .formulario-botao:hover {
+        transform: scale(1.1);
+    }
+}
