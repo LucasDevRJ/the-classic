@@ -30,6 +30,8 @@ O objetivo do projeto é testar meus conhecimentos de HTML e CSS, além de trein
 
 **Para baixar o <a href="https://github.com/LucasDevRJ/the-classic/archive/refs/heads/master.zip" >projeto<a/> ou somente ter acesso aos <a href="https://github.com/LucasDevRJ/the-classic">diretorios<a/> , basta clicar nos links azuis.**
   
+  **Ou simplesmente acessar o projeto online <a href="https://the-classic.vercel.app/">aqui</a>.**
+  
 ## :bulb: Abrir e rodar o projeto
 
 **Instruções para rodar o projeto**
